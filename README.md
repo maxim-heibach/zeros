@@ -47,4 +47,4 @@ Nullstellen.html
 ```
 öffnen.
 
-Werte für a, b und c in Eingabemaske eingeben und mit Klick auf den Button "Nullstellen berechnen" berechnen lassen. 
+Werte für a, b und c in Eingabemaske eingeben und Nullstellen mit Klick auf den Button "Nullstellen berechnen" berechnen lassen. 
