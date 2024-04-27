@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "de">
+    <head>
+        <meta charset = "utf-8">
+        <title>Nullstellen quadratischer Polynome</title>
+    </head>
+    <body>
+        <h1>Nullstellen quadratischer Polynome</h1>
+        <div>Dieses Programm berechnet Nullstellen quadratischer Polynome der Form ax&sup2; + bx + c und stellt die Lösungen im Intervall x &isin; [-10;10] grafisch dar. </div><br>
+
+        <!-- Eingabemaske -->
+        <label for = "a"> a:
+            <input type = "number" id = "a" name = "a">
+        </label>
+        <label for = "b"> b:
+            <input type = "number" id = "b" name = "b">
+        </label>
+        <label for = "c"> c:
+            <input type = "number" id = "c" name = "c">
+        </label><br><br>
+        <button onclick = "calculateZeros()">Nullstellen berechnen</button><br><br>
+
+        <!-- Ausgabe des Ergebnisses inklusive Visualisierung -->
+        <div id = "zerosOutput"></div><br>
+        <canvas id = "myCanvas" width = "500" height = "500"></canvas>
+        
+        <script src = "calculateZeros.js"></script>
+        <script src = "drawCanvas.js"></script>
+    </body>
+</html>
